@@ -4,6 +4,7 @@ const { registerMenuHandling } = require("./menuBarHandling");
 const createWindow = () => {
   const win = new BrowserWindow({
     autoHideMenuBar: true,
+    icon: __dirname + "/build/icons/icon.png",
     webPreferences: {
       spellcheck: false,
     },
